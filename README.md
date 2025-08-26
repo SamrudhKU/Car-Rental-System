@@ -46,7 +46,7 @@ Update availability.
 
 ## 🚀 Getting Started
 1. Clone Repository
-git clone https://github.com/<your-username>/car-rental-system.git
+git clone https://github.com/your-username/car-rental-system.git
 
 2. Compile & Run
 cd car-rental-system/src
