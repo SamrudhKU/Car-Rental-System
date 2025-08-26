@@ -42,41 +42,7 @@ Return Car
 
 Update availability.
 
-🧑‍💻 Example Code Snippet
-// Car.java
-public class Car {
-    private int id;
-    private String brand;
-    private String model;
-    private double pricePerDay;
-    private boolean available;
 
-    public Car(int id, String brand, String model, double pricePerDay) {
-        this.id = id;
-        this.brand = brand;
-        this.model = model;
-        this.pricePerDay = pricePerDay;
-        this.available = true;
-    }
-
-    public boolean isAvailable() {
-        return available;
-    }
-
-    public void rentCar() {
-        available = false;
-    }
-
-    public void returnCar() {
-        available = true;
-    }
-
-    @Override
-    public String toString() {
-        return id + " - " + brand + " " + model + " ($" + pricePerDay + "/day) " 
-               + (available ? "Available" : "Rented");
-    }
-}
 
 ## 🚀 Getting Started
 1. Clone Repository
